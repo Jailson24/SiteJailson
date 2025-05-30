@@ -1,0 +1,11 @@
+:root {
+  --primario: #1abc9c; /* Verde principal */
+  --secundario: #16a085; /* Verde escuro */
+  --destaque: #1abc9c; /* Verde usado para destaques */
+  --branco: #ffffff;
+  --preto: #111111;
+  --fundo-escuro: rgba(0, 0, 0, 0.5); /* Fundo mais translúcido */
+  --fundo-claro: #f5f5f5;
+  --texto-claro: #222222;
+  --sombra-suave: rgba(0, 0, 0, 0.15);
+}

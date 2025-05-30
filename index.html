@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Principal - Meu Portfólio</title>
+  <meta name="description" content="Página principal do meu portfólio.">
+  <link rel="stylesheet" href="variables.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./public/img/logo.png">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="pagina-inicio">
+  <header class="sticky-header">
+    <a href="index.html" class="logo-link" aria-label="Página Principal">
+      <img src="./public/img/logo.png" alt="Logo" class="logo">
+    </a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-icon"><i data-lucide="menu"></i></label>
+    <nav class="menu">
+      <ul class="menu-links">
+        <li><a href="index.html" aria-current="page">Principal</a></li>
+        <li><a href="sobremim.html">Sobre mim</a></li>
+        <li><a href="designgrafico.html">Design Gráfico</a></li>
+        <li><a href="programacao.html">Programação</a></li>
+        <li><a href="redessociais.html">Redes Sociais</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+    <button id="modeToggle">🌙</button>
+  </header>
+
+  <main class="conteudo fade-in-up">
+    <h1>Bem-vindo!</h1>
+    <p>Explore meu portfólio e conheça meu trabalho em Design Gráfico, Programação e muito mais.</p>
+  </main>
+
+  <footer>
+    <small class="direitos"><p>©Jailson Barone 2025. Todos os direitos reservados.</p></small>
+  </footer>
+
+  <button id="topBtn"><i data-lucide="arrow-up"></i></button>
+  <script src="script.js" defer></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>
